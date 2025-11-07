@@ -18,6 +18,10 @@ export default {
 </script>
 
 <style>
+  *{
+    padding: 0;
+    margin: 0;
+  }
 .app-container {
   display: flex;
   height: 100vh;

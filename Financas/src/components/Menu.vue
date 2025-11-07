@@ -3,9 +3,9 @@
     <h1 class="title">ConeFinance</h1>
     <nav class="links">
       <router-link class="link" to="/teste" >Visão Geral</router-link>
-      <router-link class="link" to="/" >Transações</router-link>
-      <router-link class="link" to="" >Relatórios</router-link>
-      <router-link class="link" to="" >Configurações</router-link>
+      <router-link class="link" to="/transacoes" >Transações</router-link>
+      <router-link class="link" to="/relatorios" >Relatórios</router-link>
+      <router-link class="link" to="/config" >Configurações</router-link>
       <a class="link logout" href="#">Sair</a>
     </nav>
   </div>
@@ -29,7 +29,7 @@ export default {
    display: flex;
    flex-direction: column;
    width: 240px;
-   height: 100vh;
+   height: 140vh;
    box-shadow: 3px 0 15px rgba(0, 0, 0, 0.4);
    color: white;
    padding-top: 30px;

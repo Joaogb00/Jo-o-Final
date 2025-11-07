@@ -1,17 +1,14 @@
 <template>
-<h1>Meu cu</h1>
+    <h1>Deu certo Relatorios</h1>
 </template>
-
-
 <script>
 export default{
-    name:'Main'
+    name: 'Relatorios'
 }
 </script>
+
 <style>
 body{
-    
     color: black;
 }
-
 </style>
